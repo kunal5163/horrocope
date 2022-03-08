@@ -269,61 +269,26 @@
 .contactus .form {
     width: 70%;
 }
-
-.contactus .form .first-row,
-.contactus .form .sec-row {
+.contactus .form textarea {
+   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 25px 0;
-}
-
-.contactus .form .first-row input,
-.contactus .form .first-row input {
-    background: hsla(187, 82%, 65%, 1);
-
-background: linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%, 1) 50%, hsla(327, 67%, 74%, 1) 100%);
-
-
-    margin: 25px 25px 0px 25px;
-    width: 47%;
-    height: 56px;
+    margin: 55px 25px 25px 25px;
+    width: 90%;
+    height: 7rem;
     border: 1px solid #cbced1;
     border-radius: 5px;
     padding: 0 25px;
     font-size: 16px;
     outline: none;
+
 }
 
-.contactus .form .first-row,
-.contactus .form .sec-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 25px 0;
-}
 
-.contactus .form .first-row input,
-.contactus .form .first-row input {
-    background: hsla(187, 82%, 65%, 1);
-
-    background: linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%, 1) 50%, hsla(327, 67%, 74%, 1) 100%);
-    margin: 25px 25px 0px 25px;
-    width: 47%;
-    height: 56px;
-    border: 1px solid #cbced1;
-    border-radius: 5px;
-    padding: 0 25px;
-    font-size: 16px;
-    outline: none;
-}
-
-.contactus .form .comp-row input {
-    background: hsla(187, 82%, 65%, 1);
-
-    background: linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%, 1) 50%, hsla(327, 67%, 74%, 1) 100%);
+.contactus .form .comp-row input,.contactus .form .first-row .input-1,.contactus .form .first-row .input-2{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -338,10 +303,8 @@ background: linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%,
     outline: none;
 }
 
-.contactus .form textarea {
-    background: hsla(187, 82%, 65%, 1);
-
-    background: linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%, 1) 50%, hsla(327, 67%, 74%, 1) 100%);
+.contactus .form .first-row .input-1,.contactus .form .first-row .input-2{
+    
     margin-top: 25px;
     width: 90%;
     resize: none;
@@ -363,10 +326,7 @@ background: linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%,
 }
 
 .contactus .form .pageclip-form__submit {
-    background: hsla(187, 82%, 65%, 1);
-
-    background: linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%, 1) 50%, hsla(327, 67%, 74%, 1) 100%);
-    background-color: #e0e0e0;
+    background-color: #031323;
     color: #fff;
     padding: 30px;
     border: none;
@@ -380,6 +340,7 @@ background: linear-gradient(90deg, hsla(187, 82%, 65%, 1) 0%, hsla(65, 77%, 63%,
     height: 10px;
 
 }
+
 
 
 
