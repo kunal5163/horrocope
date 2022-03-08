@@ -240,6 +240,125 @@
      color: black;
      text-decoration: none;
    }
+/*contactus*/sav
+.contactus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1.2rem;
+    background-color: #658c99;
+    box-shadow: 7px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contactus h3 {
+    margin-top: 100px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.contactus h6 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -30px;
+    color: black;
+}
+
+.contactus .form {
+    width: 70%;
+}
+
+.contactus .form .first-row,
+.contactus .form .sec-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.contactus .form .first-row input,
+.contactus .form .first-row input {
+    margin: 25px 25px 0px 25px;
+    width: 47%;
+    height: 56px;
+    border: 1px solid #cbced1;
+    border-radius: 5px;
+    padding: 0 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+.contactus .form .first-row,
+.contactus .form .sec-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.contactus .form .first-row input,
+.contactus .form .first-row input {
+    margin: 25px 25px 0px 25px;
+    width: 47%;
+    height: 56px;
+    border: 1px solid #cbced1;
+    border-radius: 5px;
+    padding: 0 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+.contactus .form .comp-row input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 55px 25px 25px 25px;
+    width: 39%;
+    height: 56px;
+    border: 1px solid #cbced1;
+    border-radius: 5px;
+    padding: 0 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+.contactus .form textarea {
+    margin-top: 25px;
+    width: 90%;
+    resize: none;
+    border: 1px solid #cbced1;
+    border-radius: 5px;
+    padding: 6px 25px 0 25px;
+    font-size: 16px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactus .form textarea::placeholder {
+    padding-top: 7px;
+}
+
+.contactus .form .header-btn {
+    margin: 2rem auto;
+    width: 170px;
+}
+
+.contactus .form .header-btn a {
+    background-image: linear-gradient(to right, #555cf1, #a147e4);
+    color: #fff;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: normal;
+    outline: none;
+}
+
 
 
 /*contacts*/
